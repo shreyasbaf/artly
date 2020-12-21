@@ -592,7 +592,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #afdad8;
+  background-color: #9ef5e1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -614,9 +614,23 @@ li.dropdown {
 
 /* hover review */
 div.reviews:hover{
-  background-color: #76d3cb;
+  /* background-color: #76d3cb; */
+  background-color: #ffffff;
+  color: #000;
+
 }
 
 .review_text {
   min-height: 30vh;
+}
+.bottom {
+    background: #ffffff;
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  height: 50px;
+  width: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  transform: translate(120px, 70px);
+
 }
