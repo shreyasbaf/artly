@@ -8,10 +8,7 @@
 
 .w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
     color: rgb(10, 10, 10)!important;
-    background-color:#ffffff!important;
-  background-image: url(./images/background.jpg);
-
-    
+    background-color:transparent !important;
 }
 body{
   color: #090b08;
@@ -19,7 +16,7 @@ body{
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   background-color: #9ef5e1;
-  background-image: url(./images/background.jpg);
+  background-image: url(./images/background.png);
   background-size: 100%;
 
 }
@@ -186,7 +183,7 @@ a.nav-link:focus{
 	height: 100vh;
 	align-items: center;
   /* background: #d0f7e8 url("./images/kartly.png") no-repeat bottom; */
-  background-image: url(./images/background.jpg);
+  background-image: url(./images/background.png);
   
 }
 .hero-img img{
@@ -244,8 +241,8 @@ a.nav-link:focus{
 
 /* About Section */
 #about{
-  background-color: #9ef5e1;
-  background-image: url(./images/background.jpg);
+  background-color:transparent !important
+  /* background-image: url(./images/background.png); */
 
 }
 section#about{
