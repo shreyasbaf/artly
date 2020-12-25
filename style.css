@@ -20,6 +20,7 @@ body{
   font-weight: 300;
   background-color: #9ef5e1;
   background-image: url(./images/background.jpg);
+  background-size: 100%;
 
 }
 h1{
